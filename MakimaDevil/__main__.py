@@ -52,11 +52,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hi There! {}, myself {}!* 
+HEY DEAR MY SELF {}SASUKE {}!* 
 
-I'm an Highly Advanced Bot With 100's Awesome Features.
+I AM ASUPER ADVANCED BOT WITH MORE THAN 100+ AWESOME FEATURES
 
-To Use My All Features Add Me In Your Group & Don't Forget To Promote Me As Admin.
+TO USE MY ALL FEATURES ADD ME IN GROUP AND MAKE ME ADMIN
 
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
@@ -219,8 +219,8 @@ def start(update: Update, context: CallbackContext):
         update.effective_message.reply_video(
                 MAKIMASTART)
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
-            .format(uptime),
+            "I AM AWAKE MASTER⚡
+       
             parse_mode=ParseMode.HTML)
 
 
